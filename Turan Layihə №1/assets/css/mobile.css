@@ -1,0 +1,989 @@
+@media(width<834px) {
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto',
+            sans-serif;
+        /* border: 1px solid black;     */
+    }
+
+    .main-page {
+
+        min-width: 375px;
+        max-width: 375px;
+
+        background: transparent;
+        margin: auto;
+        margin-bottom: 121px;
+        /* background-color: gray; */
+
+    }
+
+    .container {
+        width: 86%;
+        margin: auto;
+
+    }
+
+    /* header styles */
+
+    header {
+        padding-top: 36px;
+
+    }
+
+    header .logo {
+
+        margin-bottom: 44.6px;
+
+        width: 52.19px;
+        height: 30.75px;
+
+
+    }
+
+    header .logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 29px;
+
+    }
+
+    header nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    header nav ul li {
+
+
+        margin-right: 25px;
+    }
+
+    header nav ul li img {
+
+
+
+        margin-right: 4px;
+
+
+        width: 10.25px;
+        height: 9.79px;
+
+
+    }
+
+    header nav ul li span {
+        display: inline-block;
+        width: 60.58px;
+        height: 14.91px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 115%;
+        /* or 11px */
+        color: #000000;
+    }
+
+    /* section banner styles start */
+    section.banner {
+        display: flex;
+        margin-bottom: 39px;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    section.banner .banner-left {
+        margin-right: 81px;
+    }
+
+    section.banner .banner-left h1 {
+
+
+        width: 292.63px;
+        height: 88.53px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 101.38%;
+        /* or 38px */
+
+
+        color: #000000;
+
+
+    }
+
+    section.banner .banner-left p {
+
+        width: 212.4px;
+        height: 28.96px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        /* or 15px */
+        color: #000000;
+
+    }
+
+    section.banner .banner-right {}
+
+    section.banner .banner-right .banner-img {
+        position: relative;
+        
+        width: 141.68px;
+        height: 175.1px;
+
+
+    }
+
+    section.banner .banner-right .banner-img .main {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+
+    }
+
+    section.banner .banner-right .banner-img .bottom {
+        position: absolute;
+        width: 131px;
+        height: 19px;
+        bottom: -8px;
+        left: 15px;
+        z-index: -1;
+    }
+
+    /* section banner styles end */
+
+    /* section ancestor start */
+    section.ancestor {
+
+        position: relative;
+        margin-left: 0px;
+        padding-top: 9px;
+        padding-right: 12px;
+        padding-left: 12.04px;
+        margin-bottom: 106px;
+        width: 225.36px;
+        height: 93.19px;
+        background: #1E4681;
+        border-radius: 2.89583px;
+        background: #1E4681;
+        border-radius: 2.32986px;
+
+    }
+
+    section.ancestor p {
+        width: 200.64px;
+        height: 52.65px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+        /* or 14px */
+
+
+        color: #FFFFFF;
+
+    }
+
+    section.ancestor span {
+
+        position: absolute;
+        right: 18.52px;
+        bottom: 0px;
+        text-align: right;
+        color: #FFFFFF;
+        width: 130.7px;
+        height: 21.27px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 130%;
+       
+    }
+
+    /* section ancestor end */
+
+    /* about style */
+
+    section.about {
+        margin-bottom: 63px;
+    }
+
+    section.about .about-title {
+        margin-bottom: 18px;
+    }
+
+    section.about .about-title h3 {
+        width: 170.08px;
+        height: 43.34px;
+     
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+        /* or 26px */
+
+
+        color: #000000;
+    }
+
+    section.about .about-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    section.about .about-wrapper .about-left {
+        margin-right: 0px;
+    }
+
+    section.about .about-wrapper .about-left p {
+
+
+
+        width: 308.47px;
+        height: auto;
+        
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        /* or 18px */
+
+
+        color: #000000;
+        /* margin-left: 78px */
+    }
+
+    section.about .about-wrapper .about-right {}
+
+    section.about .about-wrapper .about-right .img-box {
+            position: relative;
+            width: 170.55px;
+            height: 160.29px;
+            margin-left: 60px;
+            margin-top: 28px;
+
+    }
+
+    /* section.about .about-wrapper .about-right .img-box{
+  position: relative;
+} */
+    section.about .about-wrapper .about-right .img-box .main {
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    section.about .about-wrapper .about-right .img-box .bottom {
+        position: absolute;
+        bottom: -11px;
+        right: -4px;
+        z-index: -1;
+        width: 179px;
+        height: 27px;
+        display: none;
+    }
+
+    /* about styles end */
+
+    /* counter section styles */
+
+    section.counter {
+        margin-bottom: 103px;
+    }
+
+    section.counter .counter-wrapper {
+        display: flex;
+    }
+
+    section.counter .counter-wrapper .counter-img_box {
+
+
+        /* margin-right: 132px; */
+        position: relative;
+
+        display: none;
+        width: 134.37px;
+        height: 117.57px;
+
+    }
+
+    section.counter .counter-wrapper .counter-img_box .main {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    section.counter .counter-wrapper .counter-img_box .bottom {
+        display: block;
+        position: absolute;
+        bottom: -15px;
+        right: 12px;
+        width: 189px;
+        height: 32px;
+        z-index: -1;
+    }
+
+    section.counter .counter-wrapper .counter-content {}
+
+    section.counter .counter-wrapper .counter-content ul {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    section.counter .counter-wrapper .counter-content ul li {
+        list-style-type: none;
+        margin-right: 33px;
+    }
+    section.counter .counter-wrapper .counter-content ul li:last-child {
+        margin-top: 37px;
+    }
+
+    section.counter .counter-wrapper .counter-content ul li h3 {
+
+
+      
+        width: 69.9px;
+        height: 18.17px;
+        
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 130%;
+        /* or 16px */
+
+
+        color: #000000;
+    }
+
+    section.counter .counter-wrapper .counter-content ul li p {
+        width: 86.89px;
+        height: 18.5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 130%;
+        /* or 13px */
+
+
+        color: #000000;
+
+    }
+
+    /*  counter section styles end */
+
+    /*  section format styles */
+
+    section.format {
+        margin-bottom: 144px;
+    }
+
+    section.format .format-title {
+        margin-bottom: 51px;
+    }
+
+    section.format .format-title h2 {
+
+
+        width: 386.3px;
+        height: 53.86px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+        /* or 32px */
+        color: #000000;
+    }
+
+    section.format ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    section.format ul li:first-child {
+
+        margin-right: 46px;
+    }
+
+    section.format ul li:nth-child(2) {
+
+        margin-right: 98px;
+    }
+
+    section.format ul li h3 {
+
+        height: 22.59px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 130%;
+        /* or 19px */
+        color: #1E4681;
+    }
+
+    section.format ul li p {
+
+        width: 223px;
+        height: 39px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+
+
+        color: #000000;
+    }
+
+    section.format ul li p:nth-child(2) {
+        width: 153px;
+        height: 22px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+        /* or 14px */
+        color: #000000;
+    }
+
+    /* section format ends here */
+
+    /*  Knowledge style start here  */
+    section.knowledge {
+        margin-bottom: 0px;
+
+    }
+
+    section.knowledge .knowledge-title {
+        margin-bottom: 27px;
+    }
+
+    section.knowledge .knowledge-title h2 {
+
+        width: 386.3px;
+        height: 53.86px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+        /* or 32px */
+
+        color: #000000;
+    }
+
+    section.knowledge ul {
+        width: 383.41px;
+        min-height: 216.61px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+        color: #000000;
+
+    }
+
+    section.knowledge ul li {}
+
+    /*  Knowledge style end here */
+
+    /*  course_program style start */
+
+    section.course_program {}
+
+    section.course_program .course_program-title {
+        margin-bottom: 95px;
+    }
+
+    section.course_program .course_program-title h2 {
+        width: 524.15px;
+        height: 53.86px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+        /* or 32px */
+        color: #000000;
+    }
+
+    section.course_program .course_program-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    section.course_program .course_program-wrapper .course_program-box {
+
+        width: calc(33.3% - 20px);
+        /* height: 328px; */
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+
+
+
+
+        height: 189.97px;
+        border-radius: 17.375px;
+    }
+
+    section.course_program .course_program-wrapper .course_program-box .img-box {
+
+        width: 100%;
+        height: 92px;
+
+
+    }
+
+    section.course_program .course_program-wrapper .course_program-box .img-box img {
+
+        width: 100%;
+        height: 100%;
+        margin: auto;
+
+    }
+
+    section.course_program .course_program-wrapper .course_program-box .box-container {
+
+        padding-top: 11px;
+        padding-left: 19px;
+        padding-right: 15px;
+
+    }
+
+    section.course_program .course_program-wrapper .course_program-box .box-container h3 {
+
+        margin-bottom: 18px;
+        width: 211.4px;
+        height: 22.59px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 130%;
+        /* or 22px */
+    }
+
+    section.course_program .course_program-wrapper .course_program-box .box-container p {
+
+
+
+
+        width: 211.4px;
+        height: 36.49px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        /* or 18px */
+        color: #000000;
+    }
+
+
+
+    /*  course_program style end */
+
+    /*  */
+
+    /* result section styles start */
+
+    section.result {
+
+        padding-top: 91px;
+        width: 100%;
+        height: 451px;
+
+
+
+    }
+
+    section.result .result-wrapper {
+
+        margin: auto;
+        max-width: 1280px;
+        min-width: 834px;
+
+    }
+
+    section.result .result-wrapper h2 {
+
+
+        margin-bottom: 34px;
+
+        color: #000000;
+
+
+        width: 571.64px;
+        height: 53.86px;
+
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+        /* or 32px */
+
+
+        color: #000000;
+    }
+
+    section.result .result-wrapper .result-box {
+
+        width: 458.12px;
+        height: 261.2px;
+
+
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+    }
+
+    section.result .result-wrapper .result-box p {
+
+
+        padding: 26px 0px 0px 23px;
+
+
+        width: 405.42px;
+        height: 117.57px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        /* or 18px */
+
+
+        color: #000000;
+
+    }
+
+    section.result .result-wrapper .result-box .bottom-wrapper {
+
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    section.result .result-wrapper .result-box .bottom-wrapper .img-box {
+
+
+
+        margin-right: 30px;
+
+
+        width: 110.04px;
+        height: 97.88px;
+
+
+
+    }
+
+    section.result .result-wrapper .result-box .bottom-wrapper .img-box img {
+
+
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    section.result .result-wrapper .result-box .bottom-wrapper .content {}
+
+    section.result .result-wrapper .result-box .bottom-wrapper .content h3 {
+
+
+        width: 204.45px;
+        height: 34.17px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 101.38%;
+        /* or 17px */
+
+
+        color: #000000;
+
+    }
+
+    section.result .result-wrapper .result-box .bottom-wrapper .content .img-box {
+
+        width: 32px;
+        height: 31px;
+
+
+
+    }
+
+    section.result .result-wrapper .result-box .bottom-wrapper .content .img-box img {
+
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    /* result section styles end */
+
+    /* start_course start */
+
+    section.start_course {
+
+        width: 100%;
+        height: 780px;
+        padding-top: 179px;
+
+        background: #9DC9C8;
+    }
+
+    section.start_course .wrapper {
+        margin: auto;
+        max-width: 1280px;
+        min-width: 834px;
+    }
+
+    section.start_course .wrapper .container>h2 {
+
+        margin-bottom: 54px;
+
+
+        width: 525.88px;
+        height: 38.23px;
+
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+        /* or 32px */
+
+
+        color: #000000;
+
+
+
+
+    }
+
+    section.start_course .wrapper .container>p:nth-child(2) {
+
+
+
+
+        width: 98.46px;
+        height: 18.53px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+        /* or 14px */
+
+        color: #000000;
+
+    }
+
+    section.start_course .wrapper .container>p:nth-child(3) {
+        width: 511px;
+        height: 107px;
+
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 101.38%;
+        /* or 81px */
+
+
+        color: #000000;
+        margin-bottom: 48px;
+    }
+
+    section.start_course .wrapper .container .content {
+        display: flex;
+    }
+
+    section.start_course .wrapper .container .content .content-item {}
+
+    section.start_course .wrapper .container .content .content-item h4 {
+
+
+
+
+
+        width: 170.28px;
+        height: 18.53px;
+
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+        /* or 14px */
+
+
+        color: #000000;
+    }
+
+    section.start_course .wrapper .container .content .content-item p {
+
+
+        width: 170.28px;
+        height: 40.54px;
+
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+        /* or 10px */
+
+
+        color: #000000;
+    }
+
+    section.start_course .wrapper .container .content .content-item:first-child {
+        margin-right: 70px;
+    }
+
+    /* start_course end */
+
+    /* footer-wrapper styles start  */
+
+    footer {
+
+        width: 100%;
+        height: 390px;
+        background: #000000;
+        padding-top: 50px;
+    }
+
+    footer .footer-wrapper {
+        margin: auto;
+        max-width: 1440px;
+    }
+
+    footer .footer-wrapper p {
+
+        width: 230px;
+        height: 40px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
+        /* or 18px */
+
+        color: #FFFFFF;
+    }
+
+    footer .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 146px;
+    }
+
+    footer .content-wrapper .left {}
+
+    footer .content-wrapper .left .footer_logo {
+
+        width: 115px;
+        height: 68px;
+        margin-bottom: 30px;
+
+    }
+
+    footer .content-wrapper .left .footer-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    footer .content-wrapper .left .footer-social {}
+
+    footer .content-wrapper .left .footer-social img {
+
+        width: 33px;
+        height: 33px;
+        margin-right: 18px;
+    }
+
+
+    footer .content-wrapper .right {}
+
+    footer .content-wrapper .right ul {}
+
+    footer .content-wrapper .right ul li {}
+
+    footer .content-wrapper .right ul li img {
+        margin-right: 22px;
+    }
+
+    footer .content-wrapper .right ul li span {
+
+        width: 230px;
+        height: 40px;
+
+        display: inline-block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 101.38%;
+        /* or 25px */
+
+
+        color: #FFFFFF;
+
+    }
+
+
+
+
+
+
+}
